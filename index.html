@@ -1,92 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kamran | Personal Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamran | Premium Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
+<header>
+    <div class="logo">Kamran</div>
     <nav>
-        <div class="logo">Kamran</div>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Vision</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <a href="#about">About</a>
+        <a href="#shayari">Shayari</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#blog">Blog</a>
+        <button id="mode-toggle">🌙</button>
     </nav>
+</header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Hi, I'm Kamran.</h1>
-        <p>Creative Mind | Cybersecurity Learner | Future Air Force Officer | Entrepreneur</p>
-        <button onclick="scrollToSection()">Explore More</button>
-    </section>
+<section class="hero">
+    <h1>Hi, I'm Kamran.</h1>
+    <h2><span id="typing"></span></h2>
+</section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a 20-year-old student from Pakistan who completed FSc and is currently pursuing a BS in Artificial Intelligence while working as a Virtual Medical Assistant. Balancing studies and professional responsibilities has shaped me into someone disciplined, adaptable, and constantly striving to grow. Working in the medical support field has strengthened my communication skills, sense of responsibility, and ability to handle real-world challenges with patience and precision. At the same time, my academic journey in AI reflects my curiosity about the future—about technology, intelligence, and building solutions that actually matter.
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a 20-year-old student from Pakistan who completed FSc and is currently pursuing a BS in Artificial Intelligence while working as a Virtual Medical Assistant. Balancing studies and professional responsibilities has shaped me into someone disciplined, adaptable, and constantly striving to grow. Working in the medical support field has strengthened my communication skills, sense of responsibility, and ability to handle real-world challenges with patience and precision. At the same time, my academic journey in AI reflects my curiosity about the future—about technology, intelligence, and building solutions that actually matter.
 
 Beyond academics and work, I am deeply passionate about football, chess, writing shayari, and having meaningful, thought-provoking conversations. I enjoy exploring ideas, understanding people’s stories, and creating things that carry purpose and depth. Whether it’s strategy on the chessboard, creativity in poetry, or teamwork on the football field, I am always drawn to experiences that challenge my mind and character. I believe in building a life that is not just successful, but meaningful—where growth, creativity, and impact go hand in hand.
-        </p>
+    </p>
+</section>
 
+<section id="shayari">
+    <h2>Shayari</h2>
+    <div class="shayari-box">
         <p>
-            I am currently learning Cybersecurity and exploring AI.
-            I work as a Virtual Medical Assistant and continuously 
-            try to improve myself every single day.
+            "Main khud se hi ek jung mein hoon,  
+            Jeet bhi meri, haar bhi meri."
         </p>
-    </section>
+    </div>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+        <img src="images/photo1.jpg">
+        <img src="images/photo2.jpg">
+        <img src="images/photo3.jpg">
+    </div>
+</section>
 
-        <div class="skills-container">
-            <div class="skill">Cybersecurity Basics</div>
-            <div class="skill">AI Concepts</div>
-            <div class="skill">Graphic Design</div>
-            <div class="skill">Video Editing</div>
-            <div class="skill">Football</div>
-            <div class="skill">Entrepreneurship</div>
-            <div class="skill">Communication</div>
-        </div>
-    </section>
+<section id="blog">
+    <h2>Blog</h2>
+    <div class="blog-card">
+        <h3>Why Discipline Wins</h3>
+        <p>Thoughts on Air Force mindset and self-mastery.</p>
+    </div>
+    <div class="blog-card">
+        <h3>Building From Nothing</h3>
+        <p>Journey from student to financial independence.</p>
+    </div>
+</section>
 
-    <!-- Vision Section -->
-    <section id="projects">
-        <h2>My Vision</h2>
-
-        <div class="card">
-            <h3>Pakistan Air Force</h3>
-            <p>My goal is to join the Air Force and serve with honor and discipline.</p>
-        </div>
-
-        <div class="card">
-            <h3>Business Dreams</h3>
-            <p>Planning to build businesses like a Café and an Old-Money Clothing Brand in Islamabad.</p>
-        </div>
-
-        <div class="card">
-            <h3>Financial Independence</h3>
-            <p>My 5-year goal is to buy my own car and achieve financial independence before 30.</p>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: kamran@example.com</p>
-        <p>Username: kamithegrape</p>
-    </section>
-
-    <footer>
-        <p>© 2026 Kamran. Built with ambition.</p>
-    </footer>
+<footer>
+    © 2026 Kamran. Built with ambition.
+</footer>
 
 <script src="script.js"></script>
 </body>
